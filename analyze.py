@@ -26,8 +26,8 @@ def run_analysis(ticker: str, analysis_date: str) -> str:
     config["max_debate_rounds"] = 1
     config["max_risk_discuss_rounds"] = 1
     config["data_vendors"] = {
-        "core_stock_apis": "yfinance",
-        "technical_indicators": "yfinance",
+        "core_stock_apis": "alpha_vantage",
+        "technical_indicators": "alpha_vantage",
         "fundamental_data": "yfinance",
         "news_data": "yfinance",
     }
